@@ -1,5 +1,5 @@
 {
-  "name": "celestialdocs",
+  "name": "Salud Élite Pereira SAS",
   "type": "module",
   "version": "0.0.5",
   "description": "Documentation template using AstroJS and Shadcn",
@@ -7,9 +7,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HYP3R00T/CelestialDocs"
+    "url": "https://github.com/HYP3R00T/Salud Élite Pereira SAS"
   },
-  "homepage": "https://celestialdocs.hyperoot.dev/",
+  "homepage": "https://Salud Élite Pereira SAS.hyperoot.dev/",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

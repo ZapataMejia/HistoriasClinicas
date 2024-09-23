@@ -1,12 +1,11 @@
 import type { SocialObjects } from "@/lib/types";
 
 export const SITE = {
-  website: "https://hyperoot.dev", // replace this with your deployed domain
-  author: "HYP3R00T",
+  website: "https://github.com/ZapataMejia", // replace this with your deployed domain
   desc: "Documentation template using Astro and Shadcn",
-  title: "CelestialDocs",
+  title: "Salud Élite Pereira SAS",
   ogImage: "og-image.jpg",
-  repo: "https://github.com/HYP3R00T/CelestialDocs",
+  repo: "https://github.com/ZapataMejia",
 };
 
 export const LOCALE = {
