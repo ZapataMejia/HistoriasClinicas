@@ -1,11 +1,13 @@
+// src/content/config.ts
+
 import { defineCollection, z } from "astro:content";
-import { SITE } from "@/config";
+import { SITE } from "../config"; // Asegúrate de que la ruta relativa sea correcta
 
 const docs = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
-    author: z.string().default(SITE.author),
+    author: z.string().default(SITE.author),  // Utiliza el valor por defecto de SITE.author
     pubDatetime: z.date().optional(),
     modDatetime: z.date().optional().nullable(),
     description: z.string().optional(),

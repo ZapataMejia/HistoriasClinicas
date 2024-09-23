@@ -1,12 +1,14 @@
 import type { SocialObjects } from "@/lib/types";
 
 export const SITE = {
-  website: "https://github.com/ZapataMejia", // replace this with your deployed domain
+  website: "https://github.com/ZapataMejia", // Reemplaza esto con tu dominio desplegado
   desc: "Documentation template using Astro and Shadcn",
   title: "Salud Élite Pereira SAS",
   ogImage: "og-image.jpg",
   repo: "https://github.com/ZapataMejia",
+  author: "Santiago Zapata", 
 };
+
 
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
